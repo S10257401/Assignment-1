@@ -5,7 +5,7 @@ body {
 
 /* Navigation Section */
 #NavigationSection {
-    padding: 30px;
+    padding: 23px;
     text-align: center;
     background-color: #e2d1b2
 }
@@ -14,7 +14,7 @@ body {
     color: #000000; 
     text-decoration: none; 
     font-weight: bold; 
-    font-size: 22px;
+    font-size: 23px;
     transition: color 0.4s ease;
 }
 
@@ -24,7 +24,7 @@ body {
 
 .spacer {
     color: #000000;
-    font-size: 24px; 
+    font-size: 25px; 
     margin: 0 10px; 
 }
 
@@ -67,31 +67,25 @@ body {
 
 /* Second Section */
 #SecondSection {
-    padding: 40px;
+    padding: 35px;
     background-color: #173b4b; 
     height: 100vh;
     display: flex;
     flex-direction: column; 
     align-items: center; 
     justify-content: center; 
-    overflow: hidden;
 }
 
-.text-overlay-2 {
+.text-overlay-about {
     text-align: justify; 
-    font-family: "Montserrat Light";
+    font-family: "Tahoma";
     font-size: 25px;
     color: #F5F5DC; 
-    max-width: 800px; 
+    max-width: 600px; 
     padding: 20px; 
 }
 
-.photo-container-2 {
-    width: 90%; 
-    max-width: 800px; 
-}
-
-.photo-background-2 {
+.photo-background-about {
     width: 100%; 
     height: auto;
     max-height: 100%; 
@@ -100,15 +94,14 @@ body {
     margin: 0 auto; 
 }
 
-
 .learn-more-button {
     text-align: center;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .learn-more-button a {
     display: inline-block;
-    padding: 15px 30px; /* Increase padding for larger button */
+    padding: 15px 75px; /* Increase padding for larger button */
     text-decoration: none;
     font-weight: bold; 
     background-color: #e2d1b2;
@@ -119,7 +112,55 @@ body {
 }
 
 .learn-more-button a:hover {
-    color: rgba(0, 0, 0, 0.4); 
+    color: rgba(255, 255, 255, 0.4); 
 }   
 
 /* Third Section */
+#ThirdSection {
+    background-color: #e2d1b2; 
+    height: 200vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.text-overlay-merchandise {
+    text-align: justify; 
+    font-family: "Magneto";
+    font-size: 75px;
+    color: #173b4b; 
+    max-width: 600px; 
+    margin-top: -100px; 
+}
+
+.photo-background-bunnyhoodie, .photo-background-bunnyhatback, .photo-background-truthordaretee, .photo-background-FaceTextBeanie, .photo-background-TruthorDareMug{
+    width: 70%; 
+    height: auto;
+    max-height: 100%; 
+    object-fit: cover;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.shop-now-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.shop-now-button a {
+    display: inline-block;
+    padding: 15px 75px; /* Increase padding for larger button */
+    text-decoration: none;
+    font-weight: bold; 
+    background-color: #173b4b;
+    color: #e2d1b2;
+    border-radius: 5px;
+    font-size: 24px; 
+    transition: color 0.4s ease;
+}
+
+.shop-now-button a:hover {
+    color: rgba(0, 0, 0, 0.4); 
+}   
+

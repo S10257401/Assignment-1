@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.navigation-container a {
+    color: #000000; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 22px;
+    transition: color 0.4s ease;
+}
+
+.navigation-container a:hover {
+    color: rgba(0, 0, 0, 0.4); 
+}   
+
+.spacer {
+    color: #000000;
+    font-size: 24px; 
+    margin: 0 10px; 
+}
+
+.photo-background {
+    background-image: url('ricky\ montgomery\ wallpaper.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    color: #000000; 
+}
+
+.text-overlay {
+    position: absolute;
+    z-index: 1;
+    text-align: left;
+}
+
+.text-overlay h1 {
+    font-size: 60px; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold;
+    line-height: 1.2; 
+}
+
+.text-overlay h1 span.ricky {
+    font-size: 105px; 
+    font-family: 'Your Funky Font', 'Magneto'; 
+}
+
+.text-overlay h1 span.montgomery {
+    font-size: 60px; 
+    font-family: 'Your Funky Font', 'Cooper'; 
+}
+
+#NavigationSection {
+    padding: 30px;
+    text-align: center;
+    background-color: #f5f5dc
+}
+
+#FirstSection {
+    padding: 100px;
+    text-align: center;
+}

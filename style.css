@@ -81,7 +81,7 @@ body {
     font-family: "Tahoma";
     font-size: 25px;
     color: #F5F5DC; 
-    max-width: 600px; 
+    max-width: 800px; 
     padding: 20px; 
 }
 
@@ -105,7 +105,7 @@ body {
     text-decoration: none;
     font-weight: bold; 
     background-color: #e2d1b2;
-    color: #000000;
+    color: #173b4b;
     border-radius: 5px;
     font-size: 24px; 
     transition: color 0.4s ease;
@@ -118,7 +118,7 @@ body {
 /* Third Section */
 #ThirdSection {
     background-color: #e2d1b2; 
-    height: 200vh;
+    height: 220vh;
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -135,8 +135,8 @@ body {
 }
 
 .photo-background-bunnyhoodie, .photo-background-bunnyhatback, .photo-background-truthordaretee, .photo-background-FaceTextBeanie, .photo-background-TruthorDareMug{
-    width: 70%; 
-    height: auto;
+    width: 80%; 
+    height: auto; 
     max-height: 100%; 
     object-fit: cover;
     display: block; 
@@ -149,6 +149,8 @@ body {
 }
 
 .shop-now-button a {
+    text-align: center;
+    margin-top: 10px;
     display: inline-block;
     padding: 15px 75px; /* Increase padding for larger button */
     text-decoration: none;
@@ -162,5 +164,66 @@ body {
 
 .shop-now-button a:hover {
     color: rgba(0, 0, 0, 0.4); 
+}   
+
+/* Fourth Section */
+#FourthSection {
+    background-color: #173b4b; 
+    color: #e2d1b2;
+    height: 90vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.upcomingtours {
+    font-size: 100px;
+    font-family: "Cooper";
+    margin-top: -200px; /* Change this to -100px to move the text up */
+}
+
+.tour1, .tour2, .tour3 {
+    font-family: "Segoe UI Black";
+}
+.tour1 {
+    font-size:38px;
+    margin-top:-20px;
+    margin-bottom: -25px;
+}
+
+.tour2 {
+    font-size:36px;
+    margin-top:-10px;
+}
+
+.tour3 {
+    font-size:34px;
+    margin-top:10px;
+}
+
+.view-all-button {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: -100px;
+}
+
+.view-all-button a {
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 15px 75px; /* Increase padding for larger button */
+    text-decoration: none;
+    font-weight: bold; 
+    background-color: #e2d1b2;
+    color: #173b4b;
+    border-radius: 5px;
+    font-size: 24px; 
+    font-family: "sans-serif";
+    transition: color 0.4s ease;
+}
+
+.view-all-button a:hover {
+    color: rgba(255, 255, 255, 0.4); 
 }   
 

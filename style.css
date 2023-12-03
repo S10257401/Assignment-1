@@ -1,3 +1,4 @@
+/* Home page with sections */
 /* To get rid of white border on website */
 body { 
     margin: 0;
@@ -69,7 +70,7 @@ body {
 #SecondSection {
     padding: 35px;
     background-color: #173b4b; 
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -262,3 +263,69 @@ body {
 .socials a:hover {
     opacity: 0.4; /* Fade to 40% opacity on hover */
 }
+
+/* About page */
+body {
+    background-color: #173b4b;
+}
+
+#about-FirstSection {
+    height: 70vh;
+    background-color: #173b4b; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding-top:80px;
+}
+
+.about-photo-background {
+    width: 60%; 
+    height: auto;
+    max-height: 100%; 
+    object-fit: cover;
+    display: block; 
+    margin: 0 auto; 
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.about-text {
+    font-size: 18px;
+    font-family: "Tahoma";
+    color: #e2d1b2;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto; /* Center the container itself */
+    line-height: 1.5;
+    padding-top: 30px;
+    transition: color 0.4s ease;
+}
+
+.about-lifelinelink {
+    color: #e2d1b2;
+}
+
+.about-lifelinelink:hover {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+#about-SecondSection {
+    height: 140vh;
+    background-color: #173b4b; ;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.about-text2 {
+    font-size: 18px;
+    font-family: "Tahoma";
+    color: #e2d1b2;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto; /* Center the container itself */
+    line-height: 2;
+}
+

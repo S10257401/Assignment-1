@@ -102,19 +102,20 @@ body {
 
 .learn-more-button a {
     display: inline-block;
-    padding: 15px 75px; /* Increase padding for larger button */
+    padding: 15px 65px;
     text-decoration: none;
     font-weight: bold; 
     background-color: #e2d1b2;
     color: #173b4b;
     border-radius: 5px;
     font-size: 24px; 
-    transition: color 0.4s ease;
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .learn-more-button a:hover {
-    color: rgba(255, 255, 255, 0.4); 
-}   
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.85)
+}
 
 /* Third Section */
 #ThirdSection {
@@ -153,19 +154,20 @@ body {
     text-align: center;
     margin-top: 10px;
     display: inline-block;
-    padding: 15px 75px; /* Increase padding for larger button */
+    padding: 15px 75px;
     text-decoration: none;
     font-weight: bold; 
     background-color: #173b4b;
     color: #e2d1b2;
     border-radius: 5px;
     font-size: 24px; 
-    transition: color 0.4s ease;
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .shop-now-button a:hover {
-    color: rgba(0, 0, 0, 0.4); 
-}   
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 0.85)
+}
 
 /* Fourth Section */
 #FourthSection {
@@ -210,23 +212,24 @@ body {
 }
 
 .view-all-button a {
+    font-family: "Sans Serif";
     text-align: center;
     margin-top: 10px;
     display: inline-block;
-    padding: 15px 75px; /* Increase padding for larger button */
+    padding: 15px 75px;
     text-decoration: none;
     font-weight: bold; 
     background-color: #e2d1b2;
-    color: #173b4b;
+    color:#173b4b;
     border-radius: 5px;
     font-size: 24px; 
-    font-family: "sans-serif";
-    transition: color 0.4s ease;
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .view-all-button a:hover {
-    color: rgba(255, 255, 255, 0.4); 
-}   
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.85)
+}
 
 /* Fifth Section */
 #FifthSection {

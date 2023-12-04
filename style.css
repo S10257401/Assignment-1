@@ -341,22 +341,21 @@ body {
 .container {
     display: flex;
     width: 100%;
-    background-color: #e2d1b2; /* Set background color to match body */
+    background-color: #e2d1b2; 
     flex-wrap: wrap;
 }
 
-/* flex item with responsive sizing */
 .flex-item {
-    padding: 1%; /* Adjust padding for responsiveness */
+    padding: 1%; 
     flex-grow: 1;
-    flex-basis: 20%; /* Adjust the flex-basis for responsiveness */
+    flex-basis: 20%; 
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the content horizontally */
-    justify-content: center; /* Center the content vertically */
-    border: 1px solid #ffffff; /* Set border color to white */
-    margin: 1%; /* Add a margin to separate items and create space for the border */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    align-items: center; 
+    justify-content: center; 
+    border: 1px solid #ffffff; 
+    margin: 1%; 
+    box-sizing: border-box; 
 }
 
 .flex-img img {

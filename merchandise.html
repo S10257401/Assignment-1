@@ -15,9 +15,21 @@
         <div class="fa fa-shopping-cart" style="font-size:48px;color:white"></div>
     </div>
 
+    <div class="filter-container">
+        <label for="categoryFilter">Filter by Category:</label>
+        <select id="categoryFilter" onchange="filterItems()">
+            <option value="all">All</option>
+            <option value="music">Music</option>
+            <option value="shirts">Shirts</option>
+            <option value="hoodies">Hoodies</option>
+            <option value="hats">Hats</option>
+            <option value="others">Others</option>
+        </select>
+    </div>
+
     </section>
     <section class="container">
-		<div class="flex-item">
+		<div class="flex-item" data-category="shirts">
 			<div class="flex-img">
 				<img src="images/AzDQEseS_360x.webp">
             </div>
@@ -28,7 +40,7 @@
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item" data-category="hats">
 			<div class="flex-img">
 				<img src="images/BunnyHatback_360x.webp">
             </div>
@@ -39,7 +51,7 @@
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item" data-category="hoodies">
 			<div class="flex-img">
 				<img src="images/bunnyhoodie_1_360x.webp">
             </div>
@@ -50,7 +62,7 @@
             </div>
         </div>
         
-        <div class="flex-item">
+        <div class="flex-item" data-category="hats">
 			<div class="flex-img">
 				<img src="images/FaceTextBeanie_360x.webp">
             </div>
@@ -61,7 +73,7 @@
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item" data-category="music">
 			<div class="flex-img">
 				<img src="images/MontgomeryRickyCassette_360x.webp">
             </div>
@@ -72,7 +84,7 @@
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item" data-category="music">
 			<div class="flex-img">
 				<img src="images/r4ll0Zl7_a2ec9c2d-3637-4bc7-871d-64c1500243b6_360x.webp">
             </div>
@@ -83,7 +95,7 @@
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item" data-category="shirts">
 			<div class="flex-img">
 				<img src="images/RickTeeEDIT2_360x.webp">
             </div>
@@ -94,7 +106,7 @@
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item" data-category="shirts">
 			<div class="flex-img">
 				<img src="images/RMOilPastelTourTee_360x.webp">
             </div>
@@ -105,7 +117,7 @@
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item" data-category="music">
 			<div class="flex-img">
 				<img src="images/RMRick-CD_360x.webp">
             </div>
@@ -116,7 +128,7 @@
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item" data-category="music">
 			<div class="flex-img">
 				<img src="images/RMRick-StandardVinyl-Black_360x.webp">
             </div>
@@ -127,7 +139,7 @@
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item" data-category="music">
 			<div class="flex-img">
 				<img src="images/RMRickCassette_360x.webp">
             </div>
@@ -138,7 +150,7 @@
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item" data-category="music">
 			<div class="flex-img">
 				<img src="images/RMRickD2CVinyl-Evergreen_360x.webp">
             </div>
@@ -149,7 +161,7 @@
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item" data-category="others">
 			<div class="flex-img">
 				<img src="images/TruthorDareMug_360x.webp">
             </div>
@@ -160,7 +172,7 @@
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item" data-category="shirts">
 			<div class="flex-img">
 				<img src="images/truthordaretee_2_360x.webp">
             </div>
@@ -171,7 +183,7 @@
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item" data-category="music">
 			<div class="flex-img">
 				<img src="images/YvwpE9Un_360x.webp">
             </div>

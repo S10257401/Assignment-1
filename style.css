@@ -379,7 +379,7 @@ body {
 .flex-item {
     padding: 1%;
     flex-grow: 1;
-    height: 440px;
+    height: 460px;
     flex-basis: 22%;
     display: flex;
     flex-direction: column;
@@ -423,5 +423,14 @@ img {
     background-color: #173b4b;
     color: #FFFFFF;
     border: none; /* Remove button outline */
-    margin-top: 0px; /* Adjust the top margin as needed */
+    margin-top: px; /* Adjust the top margin as needed */
+    border-radius: 20px;
+    padding:8px;
+}
+
+.filter-container {
+    position:fixed;
+    top: 20px; /* Adjust the top property as needed */
+    right: 100px; /* Adjust the right property as needed */
+    font-weight: bold;
 }

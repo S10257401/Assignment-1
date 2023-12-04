@@ -394,7 +394,7 @@ body {
     max-width: 100%;
     height: auto;
     transition: transform 0.3s;
-    margin-bottom: -25px;
+    margin-bottom: -55px;
 }
 
 .flex-img:hover img {
@@ -406,6 +406,7 @@ body {
     margin-top: auto;
     font-weight: bold;
     font-size: 1.2em;
+    margin-bottom: 45px; /* Adjust the bottom margin as needed */
 }
 
 @media (max-width: 920px) {
@@ -416,4 +417,11 @@ body {
 
 img {
     max-width: 100%;
+}
+
+.addToCartButton {
+    background-color: #173b4b;
+    color: #FFFFFF;
+    border: none; /* Remove button outline */
+    margin-top: 0px; /* Adjust the top margin as needed */
 }

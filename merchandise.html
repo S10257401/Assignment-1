@@ -6,12 +6,13 @@
     <title>Assignment 1</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
 </head>
 <body>
     <div class="merchandise-title"><h1>Ricky Montgomery</h1></div>
-    
-    <div class="cart">
-        <div i class="fa fa-shopping-cart" style="font-size:48px;color:white"></i></div>
+
+    <div class="cart" onclick="navigateToCart()">
+        <div class="fa fa-shopping-cart" style="font-size:48px;color:white"></div>
     </div>
 
     </section>
@@ -23,6 +24,7 @@
             <div class="flex-info">
                 <h4>Ricky Tee - Black</h4>
                 <p>$30.00</p>
+                <button class="addToCartButton" onclick="addToCart('product1', 'Ricky Tee - Black', 30.00)">Add to Cart</button>
             </div>
         </div>
 
@@ -33,6 +35,7 @@
             <div class="flex-info">
                 <h4>Bunny Embrioded Dad Hat</h4>
                 <p>$35.00</p>
+                <button class="addToCartButton" onclick="addToCart('product2', 'Bunny Embrioded Dad Hat', 35.00)">Add to Cart</button>
             </div>
         </div>
 
@@ -43,6 +46,7 @@
             <div class="flex-info">
                 <h4>Bunny Hoodie</h4>
                 <p>$60.00</p>
+                <button class="addToCartButton" onclick="addToCart('product3', 'Bunny Hoodie', 60.00)">Add to Cart</button>
             </div>
         </div>
         
@@ -53,6 +57,7 @@
             <div class="flex-info">
                 <h4>Face Text Beanie</h4>
                 <p>$25.00</p>
+                <button class="addToCartButton" onclick="addToCart('product4', 'Face Text Beanie', 25.00)">Add to Cart</button>
             </div>
         </div>
 
@@ -63,6 +68,7 @@
             <div class="flex-info">
                 <h4>Montgomery Ricky Cassette</h4>
                 <p>$25.00</p>
+                <button class="addToCartButton" onclick="addToCart('product5', 'Montgomery Ricky Cassette', 25.00)">Add to Cart</button>
             </div>
         </div>
 
@@ -73,6 +79,7 @@
             <div class="flex-info">
                 <h4>Montgomery Ricky CD</h4>
                 <p>$25.00</p>
+                <button class="addToCartButton" onclick="addToCart('product6', 'Montgomery Ricky CD', 25.00)">Add to Cart</button>
             </div>
         </div>
 
@@ -83,6 +90,7 @@
             <div class="flex-info">
                 <h4>Rick Tee - Orchid</h4>
                 <p>$30.00</p>
+                <button class="addToCartButton" onclick="addToCart('product7', 'Rick Tee - Orchid', 30.00)">Add to Cart</button>
             </div>
         </div>
 
@@ -92,7 +100,8 @@
             </div>
             <div class="flex-info">
                 <h4>Oil Pastel Tour Tee</h4>
-                <p>$30.00</p>
+                <p>$35.00</p>
+                <button class="addToCartButton" onclick="addToCart('product8', 'Oil Pastel Tour Tee', 35.00)">Add to Cart</button>
             </div>
         </div>
 
@@ -102,7 +111,8 @@
             </div>
             <div class="flex-info">
                 <h4>Rick - CD</h4>
-                <p>$30.00</p>
+                <p>$15.00</p>
+                <button class="addToCartButton" onclick="addToCart('product9', 'Rick - CD', 15.00)">Add to Cart</button>
             </div>
         </div>
 
@@ -112,7 +122,8 @@
             </div>
             <div class="flex-info">
                 <h4>Rick - Vinyl - Black</h4>
-                <p>$30.00</p>
+                <p>$25.00</p>
+                <button class="addToCartButton" onclick="addToCart('product10', 'Rick - Vinyl - Black', 25.00)">Add to Cart</button>
             </div>
         </div>
 
@@ -122,7 +133,8 @@
             </div>
             <div class="flex-info">
                 <h4>Rick - Cassette</h4>
-                <p>$30.00</p>
+                <p>$15.00</p>
+                <button class="addToCartButton" onclick="addToCart('product11', 'Rick - Cassette', 15.00)">Add to Cart</button>
             </div>
         </div>
 
@@ -132,7 +144,8 @@
             </div>
             <div class="flex-info">
                 <h4>Rick - Webstore Exclusive Vinyl - Everygreen</h4>
-                <p>$30.00</p>
+                <p>$25.00</p>
+                <button class="addToCartButton" onclick="addToCart('product12', 'Rick - Webstore Exclusive Vinyl - Everygreen', 25.00)">Add to Cart</button>
             </div>
         </div>
 
@@ -142,7 +155,8 @@
             </div>
             <div class="flex-info">
                 <h4>Truth or Dare Mug</h4>
-                <p>$30.00</p>
+                <p>$20.00</p>
+                <button class="addToCartButton" onclick="addToCart('product13', 'Truth or Dare Mug', 20.00)">Add to Cart</button>
             </div>
         </div>
 
@@ -153,6 +167,7 @@
             <div class="flex-info">
                 <h4>Truth or Dare Tee</h4>
                 <p>$30.00</p>
+                <button class="addToCartButton" onclick="addToCart('product14', 'Truth or Dare Tee', 30.00)">Add to Cart</button>
             </div>
         </div>
 
@@ -162,7 +177,8 @@
             </div>
             <div class="flex-info">
                 <h4>Montgomery Ricky Vinyl</h4>
-                <p>$30.00</p>
+                <p>$25.00</p>
+                <button class="addToCartButton" onclick="addToCart('product15', 'Montgomery Ricky Vinyl', 25.00)">Add to Cart</button>
             </div>
         </div>
 

@@ -338,34 +338,74 @@ body {
     margin: 0; /* Remove default margin */
 }
 
+/* Add this to your existing CSS */
+.cart {
+    position: fixed;
+    top: 20px; /* Adjust the top position */
+    right: 20px; /* Adjust the right position */
+    z-index: 999;
+    margin: 0; /* Reset margin */
+}
+
+/* Style the cart icon to be hollow with an outline */
+.cart i {
+    background-color: transparent; /* Set the background to transparent */
+    border: 2px solid black; /* Set the outline color to black */
+    border-radius: 50%; /* Make it circular */
+    padding: 10px; /* Add padding for better visibility */
+    color: black; /* Set the color to black */
+}
+
+/* Add the following rule to ensure the title and cart icon are not overlapped */
+.merchandise-title {
+    text-align: center; 
+    font-family: "Magneto";
+    font-size: 45px;
+    margin-bottom: -30px;
+}
+
 .container {
     display: flex;
-    width: 100%;
-    background-color: #e2d1b2; 
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #e2d1b2;
     flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px;
 }
 
 .flex-item {
-    padding: 1%; 
+    padding: 1%;
     flex-grow: 1;
-    flex-basis: 20%; 
+    height: 440px;
+    flex-basis: 22%;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
-    border: 1px solid #ffffff; 
-    margin: 1%; 
-    box-sizing: border-box; 
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000000;
+    margin: 1%;
+    box-sizing: border-box;
 }
 
-.flex-img img {
+.flex-img {
     max-width: 100%;
-    height: 100px; /* Set a specific height for uniformity */
+    height: auto;
+    transition: transform 0.3s;
+    margin-bottom: -25px;
+}
+
+.flex-img:hover img {
+    transform: scale(1.1);
 }
 
 .flex-info {
-    text-align: center; /* Center text within the box */
+    text-align: center;
     margin-top: auto;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 @media (max-width: 920px) {
@@ -375,5 +415,5 @@ body {
 }
 
 img {
-    max-width: 100%; /* Ensure images don't exceed the container width */
+    max-width: 100%;
 }
